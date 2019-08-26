@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin: auto; 
+    text-align: center;
+  }
+  
+  header, nav, section, aside, footer {
+    background: #ebebeb;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  section {
+    width : 495px;
+    height: 250px;
+    float: left;
+    clear: both;
+  }
+
+  article {
+    color:#ebebeb; 
+    background: #777;
+    height: 160px;
+  }
+
+  p {
+      background: #ebebeb;
+      color:  #777;  
+      height: 40px;
+      margin-left: 10px;
+      margin-right: 20px;   
+  }
+
+  aside {
+      width: 297px;
+      height: 250px;
+      float: right;  
+  }
+
+  footer {
+      clear: both;
+  }
+
+

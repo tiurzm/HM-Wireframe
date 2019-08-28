@@ -7,42 +7,40 @@ body {
     margin: auto; 
     text-align: center;
   }
-  
-  header, nav, section, aside, footer {
+
+header, nav, section, aside, footer {
     background: #ebebeb;
-    margin: 20px;
-    padding: 20px;
+    padding: 30px;
+    margin: 10px;
   }
 
-  section {
-    width : 495px;
-    height: 250px;
+section {
+    width: 495px;
+    overflow: auto;
     float: left;
-    clear: both;
-  }
+}
 
-  article {
-    color:#ebebeb; 
+aside {
+    float: right;
+    width: 300px;
+    height: 155px;
+}
+
+article {
+    color: #ebebeb;
     background: #777;
-    height: 160px;
-  }
+    padding: 8px;
+}
 
-  p {
-      background: #ebebeb;
-      color:  #777;  
-      height: 40px;
-      margin-left: 10px;
-      margin-right: 20px;   
-  }
+p {
+    color: #777;
+    background: #ebebeb;
+    padding: 10px;
+    margin : 5px;
+}
 
-  aside {
-      width: 297px;
-      height: 250px;
-      float: right;  
-  }
-
-  footer {
-      clear: both;
-  }
+footer {
+    clear: both;
+}
 
 
